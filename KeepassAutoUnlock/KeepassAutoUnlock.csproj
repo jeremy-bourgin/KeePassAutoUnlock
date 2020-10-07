@@ -30,6 +30,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>5</LangVersion>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="KeePass">
       <HintPath>C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe</HintPath>
@@ -38,7 +41,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config\AbstractConfigEntry.cs" />

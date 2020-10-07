@@ -23,9 +23,9 @@ namespace KeepassAutoUnlock.Config
 
         public static PluginConfig Instance { get; private set; }
 
-        public BooleanEntry IsConfigured { get; }
-        public BooleanEntry IsEnabled { get; }
-        public ProtectedStringEntry DatabaseLocation { get; }
-        public ProtectedStringEntry Password { get; }
+        public readonly BooleanEntry IsConfigured;
+        public readonly BooleanEntry IsEnabled;
+        public readonly ProtectedStringEntry DatabaseLocation;
+        public readonly ProtectedStringEntry Password;
     }
 }
