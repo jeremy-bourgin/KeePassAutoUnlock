@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 
 // General assembly properties
 [assembly: AssemblyTitle("KeepassAutoUnlock")]
-[assembly: AssemblyDescription("auto unlock a database when keepass is open")]
+[assembly: AssemblyDescription("Auto unlock a database when keepass is opening")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("G-REMY")]
+[assembly: AssemblyCompany("Jérémy BOURGIN")]
 [assembly: AssemblyProduct("KeePass Plugin")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
