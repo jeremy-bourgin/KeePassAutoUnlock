@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Windows.Forms;
 
-using KeepassAutoUnlock.Validation;
+using KeePassAutoUnlock.Validation;
 
-namespace KeepassAutoUnlock.Constraints
+namespace KeePassAutoUnlock.Constraints
 {
     // permet de vérifier si le chemin entré vers la base de donnée est valide
     public class DatabaseConstraint : AbstractConstraint

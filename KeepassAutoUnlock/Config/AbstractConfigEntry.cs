@@ -2,7 +2,7 @@
 
 using KeePass.App.Configuration;
 
-namespace KeepassAutoUnlock.Config
+namespace KeePassAutoUnlock.Config
 {
     // représente une entrée de la configuration du plugin
     // la configuration du plugin diffère est propre à chaque utilisateur Windows

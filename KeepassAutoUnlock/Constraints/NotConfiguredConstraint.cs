@@ -1,7 +1,7 @@
-﻿using KeepassAutoUnlock.Config;
-using KeepassAutoUnlock.Validation;
+﻿using KeePassAutoUnlock.Config;
+using KeePassAutoUnlock.Validation;
 
-namespace KeepassAutoUnlock.Constraints
+namespace KeePassAutoUnlock.Constraints
 {
     // vérifie si le plugin est bien configuré
     class NotConfiguredConstraint : AbstractConstraint

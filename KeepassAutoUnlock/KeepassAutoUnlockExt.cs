@@ -6,12 +6,12 @@ using KeePass.Plugins;
 using KeePassLib.Keys;
 using KeePassLib.Serialization;
 
-using KeepassAutoUnlock.Forms;
-using KeepassAutoUnlock.Config;
+using KeePassAutoUnlock.Forms;
+using KeePassAutoUnlock.Config;
 
-namespace KeepassAutoUnlock
+namespace KeePassAutoUnlock
 {
-    public sealed class KeepassAutoUnlockExt : Plugin
+    public sealed class KeePassAutoUnlockExt : Plugin
     {
         private IPluginHost _host;
         private PluginConfig _customConfig;
@@ -20,7 +20,7 @@ namespace KeepassAutoUnlock
         {
             get
             {
-                return "https://github.com/jeremy-bourgin/KeepassAutoUnlock/blob/master/versionInfo.txt";
+                return "https://github.com/jeremy-bourgin/KeePassAutoUnlock/blob/master/versionInfo.txt";
             }
         }
 
@@ -70,7 +70,7 @@ namespace KeepassAutoUnlock
                 }
                 catch (System.Exception)
                 {
-                    MessageBox.Show("KeepassAutoUnlock : Impossible to open the database");
+                    MessageBox.Show("KeePassAutoUnlock : Impossible to open the database");
                     _customConfig.IsConfigured.Set(false);
                 }
             } while (!_customConfig.IsConfigured.Get());
@@ -78,7 +78,7 @@ namespace KeepassAutoUnlock
             return true;
         }
 
-        // Keepass > Tools > KeepassAutoUnlock Options
+        // Keepass > Tools > KeePassAutoUnlock Options
         public override ToolStripMenuItem GetMenuItem(PluginMenuType t)
         {
             if (t != PluginMenuType.Main)
@@ -87,7 +87,7 @@ namespace KeepassAutoUnlock
             }
 
             ToolStripMenuItem tsmi = new ToolStripMenuItem();
-            tsmi.Text = "KeepassAutoUnlock Options";
+            tsmi.Text = "KeePassAutoUnlock Options";
             tsmi.Click += (object sender, EventArgs e) => {
                 OpenOptions();
             };

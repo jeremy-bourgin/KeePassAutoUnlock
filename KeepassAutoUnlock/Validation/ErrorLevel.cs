@@ -1,4 +1,4 @@
-﻿namespace KeepassAutoUnlock.Validation
+﻿namespace KeePassAutoUnlock.Validation
 {
     public enum ErrorLevel
     {

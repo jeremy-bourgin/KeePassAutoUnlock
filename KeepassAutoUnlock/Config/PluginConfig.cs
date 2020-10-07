@@ -1,8 +1,8 @@
 ﻿using KeePass.App.Configuration;
 
-using KeepassAutoUnlock.Config.Entry;
+using KeePassAutoUnlock.Config.Entry;
 
-namespace KeepassAutoUnlock.Config
+namespace KeePassAutoUnlock.Config
 {
     internal sealed class PluginConfig
     {

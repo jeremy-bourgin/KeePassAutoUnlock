@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Forms;
-using KeepassAutoUnlock.Config;
-using KeepassAutoUnlock.Exception;
+using KeePassAutoUnlock.Config;
+using KeePassAutoUnlock.Exception;
 
-namespace KeepassAutoUnlock.Validation
+namespace KeePassAutoUnlock.Validation
 {
     public class Validator
     {
@@ -82,7 +82,7 @@ namespace KeepassAutoUnlock.Validation
                 return "";
             }
 
-            string r = "KeepassAutoUnlock :";
+            string r = "KeePassAutoUnlock :";
 
             foreach (AbstractConstraint c in GetErrors())
             {

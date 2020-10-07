@@ -4,7 +4,7 @@ using System.Text;
 
 using KeePass.App.Configuration;
 
-namespace KeepassAutoUnlock.Config.Entry
+namespace KeePassAutoUnlock.Config.Entry
 {
     // les configurations sous forme de chaîne de caractères sont chiffrés
     // puisque la configuration du plugin est propre à chaque utilisateur Windows

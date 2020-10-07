@@ -7,8 +7,8 @@
     <ProjectGuid>{296D8CF4-2C13-48A5-9443-1833B616CF82}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KeepassAutoUnlock</RootNamespace>
-    <AssemblyName>KeepassAutoUnlock</AssemblyName>
+    <RootNamespace>KeePassAutoUnlock</RootNamespace>
+    <AssemblyName>KeePassAutoUnlock</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -57,7 +57,7 @@
     <Compile Include="Forms\PluginOption.Designer.cs">
       <DependentUpon>PluginOption.cs</DependentUpon>
     </Compile>
-    <Compile Include="KeepassAutoUnlockExt.cs" />
+    <Compile Include="KeePassAutoUnlockExt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>

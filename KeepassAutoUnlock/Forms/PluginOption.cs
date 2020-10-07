@@ -5,12 +5,12 @@ using KeePass.App;
 using KeePass.Resources;
 using KeePass.UI;
 
-using KeepassAutoUnlock.Config;
-using KeepassAutoUnlock.Constraints;
-using KeepassAutoUnlock.Properties;
-using KeepassAutoUnlock.Validation;
+using KeePassAutoUnlock.Config;
+using KeePassAutoUnlock.Constraints;
+using KeePassAutoUnlock.Properties;
+using KeePassAutoUnlock.Validation;
 
-namespace KeepassAutoUnlock.Forms
+namespace KeePassAutoUnlock.Forms
 {
     public partial class PluginOption : Form
     {

@@ -1,6 +1,6 @@
 ﻿using KeePass.App.Configuration;
 
-namespace KeepassAutoUnlock.Config.Entry
+namespace KeePassAutoUnlock.Config.Entry
 {
     internal class BooleanEntry : AbstractConfigEntry<bool>
     {

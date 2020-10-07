@@ -1,4 +1,4 @@
-﻿namespace KeepassAutoUnlock.Forms
+﻿namespace KeePassAutoUnlock.Forms
 {
     partial class PluginOption
     {
@@ -126,7 +126,7 @@
             // databaseLocationButton
             // 
             this.databaseLocationButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.databaseLocationButton.Image = global::KeepassAutoUnlock.Properties.Resources.B16x16_Folder_Blue_Open;
+            this.databaseLocationButton.Image = global::KeePassAutoUnlock.Properties.Resources.B16x16_Folder_Blue_Open;
             this.databaseLocationButton.Location = new System.Drawing.Point(434, 33);
             this.databaseLocationButton.Name = "databaseLocationButton";
             this.databaseLocationButton.Size = new System.Drawing.Size(32, 23);

@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General assembly properties
-[assembly: AssemblyTitle("KeepassAutoUnlock")]
+[assembly: AssemblyTitle("KeePassAutoUnlock")]
 [assembly: AssemblyDescription("Auto unlock a database when keepass is opening")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jérémy BOURGIN")]

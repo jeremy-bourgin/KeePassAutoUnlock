@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KeepassAutoUnlock.Validation
+namespace KeePassAutoUnlock.Validation
 {
     public abstract class AbstractConstraint
     {
