@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 
-using KeePass;
 using KeePass.Plugins;
 
 using KeePassLib.Keys;
