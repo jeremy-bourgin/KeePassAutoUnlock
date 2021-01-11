@@ -1,5 +1,5 @@
 # Description
-When starting KeePass, this plugin automatically opens a specific database using his master password.
+When starting KeePass, this plugin automatically opens a specific database using its master password.
 
 # How to keep the database safe ?
 The configuration of the plugin is associated to the current windows user and encrypted (the configuration can be decrypted only by the associated user).
